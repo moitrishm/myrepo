@@ -3,23 +3,19 @@ title: "Lab 6: Quarto Presentation"
 author: "Moitrish Majumdar"
 format: revealjs
 editor: visual
+bibliography: references.bib 
 ---
 
-## Quarto
+## Some Important Literature
 
-Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
+-   This reference describes a cool algorithm for sparse signal reconstruction inspired by swarming and bee colonies. [@erkoc2021sparse]
 
-## Bullets
+-   This reference contains a tutorial on sparse signal reconstruction @stankovic2019tutorial.
 
-When you click the **Render** button a document will be generated that includes:
+## A Cool Equation or Two 
 
--   Content authored with markdown
--   Output from executable code
+$\frac{dy}{dt} = -y(y+1)$
 
-## Code
+$\zeta = \int_{0}^{\alpha} \sin( \pi x) dx$
 
-When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
-
-```{r}
-1 + 1
-```
+## References
